@@ -1,0 +1,128 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Fri Jan 24 13:52:16 2020
+
+JSON Profile: C:\Datalogics\PDFChecker\CheckerProfiles\everything.json
+
+Input Document: C:\Users\deh\QA\PDFChecker\testFiles\SimplePDF2.0file.pdf
+
+File Size: 2.44 KB
+
+<<=CHECKER_SUMMARY_START=>>
+general:born-digital
+general:pdf-v2
+fonts:uses-base14fonts-not-embedded
+cleanup:suboptimal-compression
+sizeInBytes:2503
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document is appropriately optimized
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was born digital.  It was produced from PDF authoring software and so it may contain text, images, tables, forms, and other objects.  These types of PDFs typically do not require OCR.
+        PDF 2.0 document
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+
+Fonts Results
+    Errors:
+        Uses Base 14 fonts not embedded in document: 
+            Helvetica (1 instance)
+    Information:
+        None
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Uncompressed: (2 instances)
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

@@ -1,0 +1,148 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Fri Jan 24 13:52:17 2020
+
+JSON Profile: C:\Datalogics\PDFChecker\CheckerProfiles\everything.json
+
+Input Document: C:\Users\deh\QA\PDFChecker\testFiles\PDFCHECK-34.pdf
+
+File Size: 1.8 MB
+
+<<=CHECKER_SUMMARY_START=>>
+general:born-digital
+userdata:contains-metadata
+userdata:contains-transparency
+fonts:fontdescriptor-missing-fields
+fonts:uses-fonts-fully-embedded
+cleanup:suboptimal-compression
+images:color:resolution-too-low
+sizeInBytes:1885131
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was born digital.  It was produced from PDF authoring software and so it may contain text, images, tables, forms, and other objects.  These types of PDFs typically do not require OCR.
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        Contains metadata: 
+            SubType: XML, Update region size: 2048 (1 instance)
+            Total: (1 instance)
+        Contains transparency: 
+            Total: (1 instance)
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+    How To Optimize:
+            Metadata can be removed using PDF Optimizer to save space. (1 instance)
+            XMP Metadata padding can be removed using PDF Optimizer to save space. (1 instance)
+            Transparency (which is not universally supported by PDF Viewers) can be flattened using PDF Optimizer. (1 instance)
+
+Fonts Results
+    Errors:
+        FontDescriptor has missing required fields: 
+            ArialNarrow-Bold, SubType: TrueType, Missing: Ascent Descent (1 instance)
+    Information:
+        Uses fonts fully embedded in document: 
+            Arial-BoldMT (1 instance)
+            ArialMT (1 instance)
+            ArialNarrow (2 instances)
+            ArialNarrow-Bold (1 instance)
+            BankGothicBT-Light (1 instance)
+            Tahoma (1 instance)
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+    How To Optimize:
+            Fully embedded fonts can be subset using PDF Optimizer to save space. (7 instances)
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Uncompressed: (300 instances)
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        Low resolution color image(s) present: 
+            Total: (72 instances)
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

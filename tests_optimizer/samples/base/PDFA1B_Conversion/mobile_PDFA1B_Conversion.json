@@ -1,0 +1,11 @@
+{
+"general": {
+        "write-output-even-if-increase-in-size": "on"
+    },
+	
+"pdfa-1b-conversion": {
+        "enabled": "on",
+        "pdfa-1b-target-color-space": "cmyk",
+        "rasterize-if-errors-encountered": "on"
+    }
+}

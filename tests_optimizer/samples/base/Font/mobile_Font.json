@@ -1,0 +1,6 @@
+{
+    "fonts": {
+            "subset-embedded-fonts": "on",
+            "consolidate-duplicate-fonts": "on"
+    }
+}

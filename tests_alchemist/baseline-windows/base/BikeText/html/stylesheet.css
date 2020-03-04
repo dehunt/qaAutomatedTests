@@ -1,0 +1,38 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+.layout_style0{
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

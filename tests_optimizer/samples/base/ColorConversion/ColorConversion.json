@@ -1,0 +1,12 @@
+{
+"general": {
+        "write-output-even-if-increase-in-size": "on"
+    },
+	
+"color-conversion": {
+        "enabled": "on",
+        "color-convert-action": "convert",
+        "convert-intent": "profile-intent",
+        "convert-profile": "color-match-rgb"
+    }
+}

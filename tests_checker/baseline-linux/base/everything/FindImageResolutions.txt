@@ -1,0 +1,144 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Mon Jan 27 14:45:50 2020
+
+JSON Profile: /home/sandbox/qaAutomatedTesting/tests_checker/profiles/everything.json
+
+Input Document: /home/sandbox/qaAutomatedTesting/tests_checker/samples/base/FindImageResolutions.pdf
+
+File Size: 22.2 MB
+
+<<=CHECKER_SUMMARY_START=>>
+general:image-only
+userdata:contains-metadata
+userdata:contains-transparency
+cleanup:suboptimal-compression
+images:color:resolution-too-high
+images:color:resolution-too-low
+images:monochrome:resolution-too-low
+sizeInBytes:23243012
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was not born digital and only consists of images.  It may have been created by scanning a document for instance.  These types of PDFs are good candidates for OCR.
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        Contains metadata: 
+            SubType: XML, Update region size: 2048 (1 instance)
+            Total: (1 instance)
+        Contains transparency: 
+            Total: (1 instance)
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+    How To Optimize:
+            Metadata can be removed using PDF Optimizer to save space. (1 instance)
+            XMP Metadata padding can be removed using PDF Optimizer to save space. (1 instance)
+            Transparency (which is not universally supported by PDF Viewers) can be flattened using PDF Optimizer. (1 instance)
+
+Fonts Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Uncompressed: (61 instances)
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        High resolution color image(s) present: 
+            Total: (8 instances)
+        Low resolution color image(s) present: 
+            Total: (8 instances)
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+    How To Optimize:
+            High resolution images can be down-sampled using PDF Optimizer to save space. (8 instances)
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        Low resolution monochrome image(s) present: 
+            Total: (2 instances)
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

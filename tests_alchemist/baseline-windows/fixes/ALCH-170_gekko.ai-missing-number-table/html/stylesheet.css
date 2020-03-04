@@ -1,0 +1,157 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+font-style: italic;
+}
+.style0{
+font-size:12pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f0, serif;
+font-weight: bold;
+}
+.style1{
+font-size:10pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f0, serif;
+font-weight: bold;
+}
+.style2{
+font-size:10pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f1, serif;
+}
+.style3{
+font-size:9.5pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f0, serif;
+font-weight: bold;
+}
+.style4{
+font-size:9.5pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f2, serif;
+font-style: italic;
+}
+.style5{
+font-size:9.5pt;
+color:rgba(35,31,32,1.00);
+font-family:Times, f1, serif;
+}
+.p_style0{
+text-align:center;
+
+}
+.p_style1{
+text-align:left;
+
+}
+.p_style10{
+text-align:right;
+margin-right:35.52pt;
+line-height:11.99pt;
+}
+.p_style11{
+text-align:left;
+margin-left:1.42pt;
+line-height:11.99pt;
+}
+.p_style12{
+text-align:left;
+margin-left:4.55pt;
+line-height:11.99pt;
+}
+.p_style13{
+text-align:left;
+line-height:24pt;
+}
+.p_style14{
+text-align:left;
+margin-left:10.83pt;
+line-height:24pt;
+}
+.p_style15{
+text-align:left;
+margin-left:1.71pt;
+line-height:24pt;
+}
+.p_style2{
+text-indent:28.34pt;
+text-align:justify;
+line-height:14pt;
+}
+.p_style3{
+text-align:left;
+line-height:14pt;
+}
+.p_style4{
+text-align:right;
+margin-right:7.17pt;
+line-height:14pt;
+}
+.p_style5{
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style6{
+text-align:center;
+line-height:11.99pt;
+}
+.p_style7{
+text-align:left;
+line-height:11.99pt;
+}
+.p_style8{
+text-indent:7.58pt;
+text-align:left;
+line-height:11.99pt;
+}
+.p_style9{
+text-align:center;
+line-height:11.99pt;
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

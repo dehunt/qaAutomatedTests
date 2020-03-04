@@ -1,0 +1,151 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+.style0{
+font-size:9.96pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f0, sans-serif;
+}
+.style1{
+font-size:15.96pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f1, sans-serif;
+font-weight: bold;
+}
+.style2{
+font-size:14.04pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f1, sans-serif;
+font-weight: bold;
+}
+.style3{
+font-size:14.04pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f1, sans-serif;
+font-weight: bold;
+text-decoration: underline;
+}
+.style4{
+font-size:12pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f1, sans-serif;
+font-weight: bold;
+text-decoration: underline;
+}
+.style5{
+font-size:12pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f1, sans-serif;
+font-weight: bold;
+}
+.style6{
+font-size:12pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f0, sans-serif;
+}
+.style7{
+font-size:12pt;
+color:rgba(27,28,31,1.00);
+font-family:Calibri, f2, sans-serif;
+}
+.p_style0{
+text-align:right;
+
+}
+.p_style1{
+text-align:left;
+line-height:19.57pt;
+}
+.p_style10{
+text-align:left;
+margin-left:15pt;
+line-height:13.14pt;
+}
+.p_style2{
+text-align:left;
+line-height:14.03pt;
+}
+.p_style3{
+text-align:left;
+line-height:13.68pt;
+}
+.p_style4{
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style5{
+text-align:left;
+line-height:14.65pt;
+}
+.p_style6{
+text-align:left;
+margin-left:15pt;
+line-height:13.32pt;
+}
+.p_style7{
+text-align:left;
+margin-left:15pt;
+line-height:14.07pt;
+}
+.p_style8{
+text-align:left;
+line-height:14.64pt;
+}
+.p_style9{
+text-align:left;
+margin-left:30.01pt;
+line-height:14.07pt;
+}
+.layout_style0{
+background-color: rgba(255,255,255,1.00);
+border-style: solid;
+border-color: rgba(0,0,0,1.00);
+border-width: 1px; 
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

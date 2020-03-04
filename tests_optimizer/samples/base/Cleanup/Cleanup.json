@@ -1,0 +1,9 @@
+{
+    "cleanup": {
+        "compression": "compress-entire-file",
+        "flate-encode-uncompressed-streams": "on",
+        "convert-lzw-to-flate" : "on",
+        "optimize-page-content" : "on",
+        "optimize-for-fast-web-view" : "on"    
+    }
+}

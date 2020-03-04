@@ -1,0 +1,141 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Fri Jan 24 13:52:20 2020
+
+JSON Profile: C:\Datalogics\PDFChecker\CheckerProfiles\everything.json
+
+Input Document: C:\Users\deh\QA\PDFChecker\testFiles\brokenpdf.pdf
+
+
+
+<<=CHECKER_SUMMARY_START=>>
+general:damaged
+general:unable-to-open
+sizeInBytes:0
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document is appropriately optimized
+
+General Results
+    Errors:
+        Damaged document
+        Cannot be opened/not valid PDF
+    Information:
+        None
+    Checks Completed:
+        damaged
+        unable-to-open (triggered abort)
+    Checks Aborted:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        image-only
+        password-protected
+        pdf-v2
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+
+Fonts Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

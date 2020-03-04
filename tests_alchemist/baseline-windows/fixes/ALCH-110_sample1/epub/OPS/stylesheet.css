@@ -1,0 +1,131 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+.style0{
+font-size:15pt;
+color:rgba(231,52,52,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style1{
+font-size:8pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style10{
+font-size:4.1976pt;
+color:rgba(0,0,0,1.00);
+vertical-align: super;
+font-family:ITCFranklinGothicStd, f1, sans-serif;
+}
+.style11{
+font-size:5.247pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f1, sans-serif;
+}
+.style2{
+font-size:8pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f1, sans-serif;
+}
+.style3{
+font-size:25pt;
+color:rgba(113,112,113,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style4{
+font-size:25pt;
+color:rgba(231,52,52,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style5{
+font-size:12pt;
+color:rgba(231,52,52,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style6{
+font-size:9pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f1, sans-serif;
+}
+.style7{
+font-size:9pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f0, sans-serif;
+}
+.style8{
+font-size:9pt;
+color:rgba(0,0,0,1.00);
+font-family:ITCFranklinGothicStd, f1, sans-serif;
+}
+.style9{
+font-size:9pt;
+color:rgba(0,0,0,1.00);
+font-family:MHeiHK, f2, sans-serif;
+}
+.p_style0{
+text-align:left;
+
+}
+.p_style1{
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style2{
+text-align:left;
+line-height:14pt;
+}
+.p_style3{
+text-align:right;
+line-height:14pt;
+}
+.p_style4{
+text-indent:14.52pt;
+text-align:left;
+line-height:14pt;
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

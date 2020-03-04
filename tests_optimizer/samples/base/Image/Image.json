@@ -1,0 +1,40 @@
+{
+    "images": {
+        "color": {
+            "downsample": {
+                "trigger-dpi": 150,
+                "target-dpi": 125
+            },
+            "recompress": {
+                "type": "jpeg2000",
+                "quality": "high"
+            }
+        },
+		"grayscale": {
+            "downsample": {
+                "trigger-dpi": 150,
+                "target-dpi": 125
+            },
+            "recompress": {
+                "type": "jpeg2000",
+                "quality": "high"
+            }
+        },
+		"monochrome": {
+            "downsample": {
+                "trigger-dpi": 450,
+                "target-dpi": 300
+            },
+            "recompress": {
+                "type": "jbig2",
+                "quality": "lossy"
+            }
+        },
+            "optimize-images-only-if-reduction-in-size": "off",
+            "consolidate-duplicate-image-and-forms": "on"
+    },
+	
+	"general": {
+		"write-output-even-if-increase-in-size": "on"
+	}
+}

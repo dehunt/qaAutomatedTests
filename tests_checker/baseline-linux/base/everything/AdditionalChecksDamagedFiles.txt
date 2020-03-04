@@ -1,0 +1,140 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Mon Jan 27 14:45:41 2020
+
+JSON Profile: /home/sandbox/qaAutomatedTesting/tests_checker/profiles/everything.json
+
+Input Document: /home/sandbox/qaAutomatedTesting/tests_checker/samples/base/AdditionalChecksDamagedFiles.pdf
+
+File Size: 326 KB
+
+<<=CHECKER_SUMMARY_START=>>
+general:damaged
+cleanup:suboptimal-compression
+sizeInBytes:333644
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        Damaged document
+    Information:
+        None
+    Checks Completed:
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        damaged
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+    Checks Aborted:
+        born-digital
+        contains-owner-password
+        contains-signature
+        image-only
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-private-data
+        contains-transparency
+    Checks Aborted:
+        contains-metadata
+        contains-optional-content
+
+Fonts Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-thumbnails
+    Checks Aborted:
+        contains-javascript-actions
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Compression: ASCII (2 instances)
+    Checks Completed:
+        suboptimal-compression
+    How To Optimize:
+            ASCII filtered streams can be re-compressed using Flate with PDF Optimizer to save space. (2 instances)
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        None
+    Checks Aborted:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

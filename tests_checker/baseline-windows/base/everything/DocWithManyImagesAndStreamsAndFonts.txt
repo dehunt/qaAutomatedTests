@@ -1,0 +1,182 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Fri Jan 24 13:52:19 2020
+
+JSON Profile: C:\Datalogics\PDFChecker\CheckerProfiles\everything.json
+
+Input Document: C:\Users\deh\QA\PDFChecker\testFiles\DocWithManyImagesAndStreamsAndFonts.pdf
+
+File Size: 121 MB
+
+<<=CHECKER_SUMMARY_START=>>
+general:born-digital
+general:claims-pdfx-conformance
+userdata:contains-metadata
+userdata:contains-optional-content
+userdata:contains-transparency
+fonts:uses-fonts-fully-embedded
+cleanup:suboptimal-compression
+images:color:image-depth
+images:color:resolution-too-high
+images:color:resolution-too-low
+images:color:uses-jpeg2000-compression
+images:grayscale:resolution-too-high
+images:grayscale:resolution-too-low
+images:grayscale:uses-jpeg2000-compression
+images:monochrome:resolution-too-low
+sizeInBytes:126476931
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was born digital.  It was produced from PDF authoring software and so it may contain text, images, tables, forms, and other objects.  These types of PDFs typically do not require OCR.
+        Claims PDF/X compliance
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        Contains metadata: 
+            SubType: XML, Update region size: 0 (101 instances)
+            SubType: XML, Update region size: 2048 (2 instances)
+            Total: (2 instances)
+        Contains optional content (layers)
+        Contains transparency: 
+            Total: (1 instance)
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+    How To Optimize:
+            Metadata can be removed using PDF Optimizer to save space. (103 instances)
+            XMP Metadata padding can be removed using PDF Optimizer to save space. (2 instances)
+            Transparency (which is not universally supported by PDF Viewers) can be flattened using PDF Optimizer. (1 instance)
+
+Fonts Results
+    Errors:
+        None
+    Information:
+        Uses fonts fully embedded in document: 
+            AdobeHebrew-Regular (1 instance)
+            AdobeThai-Regular (1 instance)
+            BirchStd (2 instances)
+            Centennial-Light (1 instance)
+            Centennial-LightItalic (1 instance)
+            Courier (6 instances)
+            MyriadPro-Bold (18 instances)
+            MyriadPro-It (1 instance)
+            MyriadPro-Regular (2 instances)
+            PoplarStd (2 instances)
+            Symbol (1 instance)
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+    How To Optimize:
+            Fully embedded fonts can be subset using PDF Optimizer to save space. (36 instances)
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Uncompressed: (10 instances)
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        16-bit/channel color image(s) present: 
+            Total: (5 instances)
+        High resolution color image(s) present: 
+            Total: (22 instances)
+        Low resolution color image(s) present: 
+            Total: (42 instances)
+        Color image(s) using JPEG2000 compression: 
+            Total: (10 instances)
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+    How To Optimize:
+            16-bit images which are not universally supported by PDF Viewers can be down-sampled to be 8-bit using PDF Optimizer. (5 instances)
+            High resolution images can be down-sampled using PDF Optimizer to save space. (22 instances)
+            JPEG2000 compression (which is not universally supported by PDF Viewers) can be re-encoded with JPEG compression (which is much more common) using PDF Optimizer. (10 instances)
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        High resolution gray image(s) present: 
+            Total: (1 instance)
+        Low resolution gray image(s) present: 
+            Total: (14 instances)
+        Grayscale image(s) using JPEG2000 compression: 
+            Total: (2 instances)
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+    How To Optimize:
+            High resolution images can be down-sampled using PDF Optimizer to save space. (1 instance)
+            JPEG2000 compression (which is not universally supported by PDF Viewers) can be re-encoded with JPEG compression (which is much more common) using PDF Optimizer. (2 instances)
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        Low resolution monochrome image(s) present: 
+            Total: (12 instances)
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

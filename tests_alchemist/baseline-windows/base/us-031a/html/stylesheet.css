@@ -1,0 +1,410 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@-webkit-keyframes bugfix {
+  from { padding-left: 20%; }
+   to { padding-left: 20%; }
+}
+#bookmarks-html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow: hidden;
+}
+#bookmarks-body {
+  display: block;
+  height: 100%;
+  max-height: 100%;
+  padding-left: 20%;
+  position: relative;
+  z-index: 3;
+  -webkit-animation: bugfix infinite 1s;
+}
+ul.folder, li.file {
+  border: 0;
+  padding-left: 10px;
+}
+.file > a {
+  color: #fff;
+}
+#bookmarks {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 20%;
+  background-color: #888;
+  background-position: 0 100px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  z-index: 4;
+  overflow: auto;
+}
+#content {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  position: relative;
+  z-index: 3;
+}
+label.folder {
+  cursor: pointer;
+}
+.switch {
+  display: none;
+}
+#bookmarks .switch:checked + .folder::before {
+  content: "\25b6";
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 10px;
+  width: 12px;
+  height: 12px;
+  color: #fff;
+  margin-right: 9px;
+  margin-left: -20px;
+  text-align: center;
+  position: relative;
+}
+#bookmarks .switch + .folder::before {
+  content: "\25bc";
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 10px;
+  width: 12px;
+  height: 12px;
+  color: #fff;
+  margin-right: 9px;
+  margin-left: -20px;
+  text-align: center;
+  position: relative;
+}
+#bookmarks ol {
+  list-style-type: none;
+  padding-left: 10px;
+  margin-left: 0px;
+  left: 0px;
+}
+#bookmarks .switch + .folder + ol > .file {
+  display: block;
+}
+#bookmarks .switch:checked + .folder + ol > .file {
+  display: none;
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+@font-face{
+font-family:f3;
+src:url(fonts/f3.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f4;
+src:url(fonts/f4.ttf)format("truetype");
+}
+.style0{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:TimesNewRomanPSMT, f0, sans-serif;
+}
+.style1{
+font-size:15pt;
+color:rgba(0,0,0,1.00);
+font-family:Arial, f1, sans-serif;
+font-weight: bold;
+}
+.style2{
+font-size:10.98pt;
+color:rgba(0,0,0,1.00);
+font-family:Arial, f1, sans-serif;
+font-weight: bold;
+}
+.style3{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:Arial, f1, sans-serif;
+font-weight: bold;
+}
+.style4{
+font-size:10.02pt;
+color:rgba(0,0,0,1.00);
+font-family:Arial, f1, sans-serif;
+font-weight: bold;
+}
+.style5{
+font-size:9.5478pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f2, sans-serif;
+}
+.style6{
+font-size:9.5478pt;
+color:rgba(0,0,0,1.00);
+font-family:Calibri, f3, sans-serif;
+font-weight: bold;
+}
+.style7{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:SymbolMT, f4, sans-serif;
+}
+.style8{
+font-size:12pt;
+color:rgba(0,0,0,1.00);
+font-family:TimesNewRomanPSMT, f0, sans-serif;
+text-decoration: underline;
+}
+.p_style0{
+text-align:left;
+line-height:13.79pt;
+}
+.p_style1{
+text-align:left;
+
+}
+.p_style10{
+text-align:left;
+margin-left:33.73pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style11{
+text-align:left;
+margin-left:2.54pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style12{
+text-align:left;
+margin-left:33.72pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style13{
+text-align:center;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style14{
+text-align:left;
+margin-left:3.17pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style15{
+text-align:left;
+margin-left:1.89pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style16{
+text-align:left;
+margin-left:33.71pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style17{
+text-align:left;
+margin-left:2.52pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style18{
+text-align:left;
+margin-left:35.61pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style19{
+text-align:left;
+margin-left:33.7pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style2{
+text-align:center;
+line-height:13.79pt;
+}
+.p_style20{
+text-align:center;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style21{
+text-align:left;
+margin-left:3.15pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style22{
+text-align:left;
+margin-left:32.42pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style23{
+text-align:left;
+margin-left:1.87pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style24{
+text-align:left;
+margin-left:2.5pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style25{
+text-align:left;
+margin-left:32.41pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style26{
+text-align:left;
+margin-left:11.41pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style27{
+text-align:left;
+margin-left:35.59pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style28{
+text-align:left;
+line-height:13.8pt;
+}
+.p_style29{
+text-align:left;
+margin-left:36pt;
+line-height:13.765pt;
+}
+.p_style3{
+text-align:center;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style30{
+text-align:left;
+margin-left:36pt;
+line-height:13.79pt;
+}
+.p_style31{
+text-align:left;
+margin-left:35.99pt;
+line-height:13.8pt;
+}
+.p_style32{
+text-align:left;
+margin-left:36pt;
+line-height:13.8pt;
+}
+.p_style4{
+text-align:center;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style5{
+text-align:left;
+margin-left:3.18pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style6{
+text-align:left;
+margin-left:7.63pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style7{
+text-align:left;
+margin-left:35.64pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style8{
+text-align:left;
+margin-left:32.46pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+.p_style9{
+text-align:left;
+margin-left:1.91pt;
+
+margin-top:0;
+margin-bottom:0;
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

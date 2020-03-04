@@ -1,0 +1,9 @@
+{
+    "transparency": {
+        "quality": "low-quality"  
+    },
+	
+	"general": {
+		"write-output-even-if-increase-in-size": "on"
+	}
+}

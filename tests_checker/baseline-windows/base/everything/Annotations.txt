@@ -1,0 +1,148 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Fri Jan 24 13:52:08 2020
+
+JSON Profile: C:\Datalogics\PDFChecker\CheckerProfiles\everything.json
+
+Input Document: C:\Users\deh\QA\PDFChecker\testFiles\Annotations.pdf
+
+File Size: 1.25 MB
+
+<<=CHECKER_SUMMARY_START=>>
+general:born-digital
+userdata:contains-annots
+userdata:contains-annots-not-for-printing
+userdata:contains-embedded-files
+userdata:contains-metadata
+sizeInBytes:1307104
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was born digital.  It was produced from PDF authoring software and so it may contain text, images, tables, forms, and other objects.  These types of PDFs typically do not require OCR.
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        Contains annotations: 
+            SubType: Highlight (30 instances)
+            SubType: Link (5 instances)
+            SubType: Popup (1 instance)
+            SubType: Text (40 instances)
+        Contains annotations that are set as invisible for printing: 
+            SubType: Highlight (30 instances)
+            SubType: Link (5 instances)
+            SubType: Popup (1 instance)
+            SubType: Text (40 instances)
+        Contains embedded files: 
+            Total: (1 instance)
+        Contains metadata: 
+            SubType: XML, Update region size: 0 (1 instance)
+            SubType: XML, Update region size: 2048 (1 instance)
+            Total: (1 instance)
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+    How To Optimize:
+            Annotations can be removed using PDF Optimizer to save space. (76 instances)
+            Annotations not intended for printing can be removed using PDF Optimizer to save space. (76 instances)
+            Attached files can be removed using PDF Optimizer to save space. (1 instance)
+            Metadata can be removed using PDF Optimizer to save space. (2 instances)
+            XMP Metadata padding can be removed using PDF Optimizer to save space. (1 instance)
+
+Fonts Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+
+Objects Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

@@ -1,0 +1,163 @@
+PDF Checker 1.5.2  Copyright 2018-2019 Datalogics, Inc. All Rights Reserved
+
+Mon Jan 27 14:45:50 2020
+
+JSON Profile: /home/sandbox/qaAutomatedTesting/tests_checker/profiles/everything.json
+
+Input Document: /home/sandbox/qaAutomatedTesting/tests_checker/samples/base/Matrix2DOperationsJavascriptOperations.pdf
+
+File Size: 566 KB
+
+<<=CHECKER_SUMMARY_START=>>
+general:born-digital
+userdata:contains-annots
+userdata:contains-embedded-files
+userdata:contains-metadata
+fonts:uses-base14fonts-not-embedded
+fonts:uses-fonts-fully-embedded
+objects:contains-javascript-actions
+cleanup:suboptimal-compression
+images:color:uses-jpeg2000-compression
+sizeInBytes:579827
+canBeOptimized
+<<=CHECKER_SUMMARY_END=>>
+
+Optimization Assessment
+    Document can be optimized with PDF Optimizer - see details below
+
+General Results
+    Errors:
+        None
+    Information:
+        Document was born digital.  It was produced from PDF authoring software and so it may contain text, images, tables, forms, and other objects.  These types of PDFs typically do not require OCR.
+    Checks Completed:
+        born-digital
+        claims-pdfa-conformance
+        claims-pdfe-conformance
+        claims-pdfua-conformance
+        claims-pdfvt-conformance
+        claims-pdfx-conformance
+        contains-owner-password
+        contains-signature
+        damaged
+        image-only
+        password-protected
+        pdf-v2
+        unable-to-open
+        xfa-type
+
+Userdata Results
+    Errors:
+        None
+    Information:
+        Contains annotations: 
+            SubType: Popup (1 instance)
+            SubType: Text (1 instance)
+            SubType: Widget (66 instances)
+        Contains embedded files: 
+            Total: (1 instance)
+        Contains metadata: 
+            SubType: XML, Update region size: 2048 (1 instance)
+            Total: (1 instance)
+    Checks Completed:
+        contains-annots
+        contains-annots-not-for-printing
+        contains-annots-not-for-viewing
+        contains-annots-without-normal-appearances
+        contains-embedded-files
+        contains-metadata
+        contains-optional-content
+        contains-private-data
+        contains-transparency
+    How To Optimize:
+            Annotations can be removed using PDF Optimizer to save space. (68 instances)
+            Attached files can be removed using PDF Optimizer to save space. (1 instance)
+            Metadata can be removed using PDF Optimizer to save space. (1 instance)
+            XMP Metadata padding can be removed using PDF Optimizer to save space. (1 instance)
+
+Fonts Results
+    Errors:
+        Uses Base 14 fonts not embedded in document: 
+            Arial (4 instances)
+            ArialMT (1 instance)
+            Helvetica (16 instances)
+            Helvetica-Bold (1 instance)
+            Helvetica-BoldOblique (1 instance)
+            Times-Bold (1 instance)
+            Times-BoldItalic (1 instance)
+            Times-Roman (1 instance)
+            ZapfDingbats (1 instance)
+    Information:
+        Uses fonts fully embedded in document: 
+            CalifornianFB (2 instances)
+    Checks Completed:
+        fontdescriptor-missing-capheight
+        fontdescriptor-missing-fields
+        uses-base14fonts-not-embedded
+        uses-fonts-fully-embedded
+        uses-fonts-not-embedded
+    How To Optimize:
+            Fully embedded fonts can be subset using PDF Optimizer to save space. (2 instances)
+
+Objects Results
+    Errors:
+        None
+    Information:
+        Contains JavaScript actions: 
+            Type: Annot, SubType: Widget (23 instances)
+    Checks Completed:
+        contains-javascript-actions
+        contains-thumbnails
+    How To Optimize:
+            Javascript actions can be removed using PDF Optimizer to save space or make the document more secure. (23 instances)
+
+Cleanup Results
+    Errors:
+        None
+    Information:
+        Contains conservatively compressed streams: 
+            Uncompressed: (4 instances)
+    Checks Completed:
+        suboptimal-compression
+
+Image Results
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        alternate-images
+
+    Color Images
+    Errors:
+        None
+    Information:
+        Color image(s) using JPEG2000 compression: 
+            Total: (1 instance)
+    Checks Completed:
+        image-depth
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+    How To Optimize:
+            JPEG2000 compression (which is not universally supported by PDF Viewers) can be re-encoded with JPEG compression (which is much more common) using PDF Optimizer. (1 instance)
+
+    Grayscale Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jpeg2000-compression
+
+    Monochrome Images
+    Errors:
+        None
+    Information:
+        None
+    Checks Completed:
+        resolution-too-high
+        resolution-too-low
+        uses-jbig2-compression

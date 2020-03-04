@@ -1,0 +1,103 @@
+.ta_center {
+text-align: center
+}
+.ta_right {
+text-align: right
+}
+@font-face{
+font-family:f0;
+src:url(fonts/f0.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f1;
+src:url(fonts/f1.ttf)format("truetype");
+font-weight: bold;
+}
+@font-face{
+font-family:f2;
+src:url(fonts/f2.ttf)format("truetype");
+}
+@font-face{
+font-family:f3;
+src:url(fonts/f3.ttf)format("truetype");
+}
+@font-face{
+font-family:f4;
+src:url(fonts/f4.ttf)format("truetype");
+}
+@font-face{
+font-family:f5;
+src:url(fonts/f5.ttf)format("truetype");
+}
+.style0{
+font-size:12.753pt;
+color:rgba(35,31,32,1.00);
+font-family:MyriadPro, f0, sans-serif;
+font-weight: bold;
+}
+.style1{
+font-size:8pt;
+color:rgba(35,31,32,1.00);
+font-family:MyriadPro, f1, sans-serif;
+font-weight: bold;
+}
+.style2{
+font-size:10.5pt;
+color:rgba(0,0,0,1.00);
+font-family:Symbol, f2, sans-serif;
+}
+.style3{
+font-size:10.5pt;
+color:rgba(0,0,0,1.00);
+font-family:Minion, f3, serif;
+}
+.style4{
+font-size:10.5pt;
+color:rgba(0,0,0,1.00);
+font-family:SymbolEuro, f4, sans-serif;
+}
+.style5{
+font-size:10.5pt;
+color:rgba(0,0,0,1.00);
+font-family:Symbol, f5, sans-serif;
+}
+.p_style0{
+text-align:left;
+
+}
+.p_style1{
+
+margin-top:0;
+margin-bottom:0;
+}
+table.bordered {
+border: 1px solid black;
+border-collapse: collapse;
+}
+table.bordered th{
+border: 1px solid black;
+}
+table.bordered td{
+border: 1px solid black;
+}
+table.bordered td.borderless{
+border-top: none;
+border-left: 1px solid black;
+border-right: 1px solid black;
+border-bottom: none;
+}
+table.borderless {
+border: none;
+}
+table.borderless td {
+vertical-align: top;
+}
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+a {
+text-decoration: none;
+color: inherit;
+}

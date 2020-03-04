@@ -1,0 +1,1 @@
+<root><title>ALCHEMIST-214</title><anchors id="page1"></anchors><p><span>This is to show center aligned image.</span></p><img uri="images/0.png" /><p><span>This is to show left aligned image.</span></p><img uri="images/1.png" /><anchors id="page2"></anchors><p><span>This is to show right aligned image.</span></p><img uri="images/2.png" /></root>

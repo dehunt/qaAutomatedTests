@@ -1,0 +1,144 @@
+%PDF-2.0
+
+1 0 obj
+<<
+  /Type /Catalog
+  /Pages 3 0 R
+>>
+endobj
+
+% Object 2 is intentionally missing
+
+3 0 obj
+<<
+  /Type /Pages
+  /Kids [4 0 R]
+  /Count 1
+>>
+endobj
+
+4 0 obj
+<<
+  /Type /Page
+  /Parent 3 0 R
+  /MediaBox [0 0 612 396]
+  /Contents [5 0 R 6 0 R]
+  /Resources <<
+    /Font << /F1 7 0 R >>
+  >>
+>>
+endobj
+
+5 0 obj
+<< /Length 747 >>
+stream
+% Save the current graphic state
+q 
+
+% Draw a black line segment, using the default line width.
+150 250 m
+150 350 l
+S
+
+% Draw a thicker, dashed line segment.
+4 w % Set line width to 4 points
+[4 6] 0 d % Set dash pattern to 4 units on, 6 units off
+150 250 m
+400 250 l
+S
+[] 0 d % Reset dash pattern to a solid line
+1 w % Reset line width to 1 unit
+
+% Draw a rectangle with a 1-unit red border, filled with light blue.
+1.0 0.0 0.0 RG % Red for stroke color
+0.5 0.75 1.0 rg % Light blue for fill color
+200 300 50 75 re
+B
+
+% Draw a curve filled with gray and with a colored border.
+0.5 0.1 0.2 RG
+0.7 g
+300 300 m
+300 400 400 400 400 300 c
+b
+
+% Restore the graphic state to what it was at the beginning of this stream
+Q
+
+endstream
+endobj
+
+6 0 obj
+<< /Length 166 >>
+stream
+% A text block that shows "Hello World"
+% No color is set, so this defaults to black in DeviceGray colorspace
+BT
+  /F1 24 Tf
+  100 100 Td
+  (Hello World) Tj
+ET
+endstream
+endobj
+
+7 0 obj
+<<
+  /Type /Font
+  /Subtype /Type1
+  /Name /F1
+  /BaseFont /Helvetica
+  /FirstChar 65
+  /LastChar 126
+  /Widths [667 667 722 722 667 611 778 722
+    278 500 667 556 833 722 778 667
+	778 722 667 611 722 667 944 667
+	667 611 278 278 278 469 556 222
+	556 556 500 556 556 278 556 556
+	222 222 500 222 833 556 556 556
+	556 333 500 278 556 500 722 500
+	500 500 334 260 334 584 ]
+  /FontDescriptor 8 0 R
+>>
+endobj
+
+8 0 obj
+<<
+  /Type /FontDescriptor
+  /FontName /Helvetica
+  /Flags 4 
+  /FontBBox [ -166 -225 1000 931 ]
+  /ItalicAngle 0
+  /Ascent 850
+  /Descent -207
+  /CapHeight 718
+  /YHeight 523
+  /StemV 88
+  /StemH 45
+  /MaxWidth 944
+  /AvgWidth 500
+  /MissingWidth 556
+>>
+endobj
+
+% The object cross-reference table. The first entry
+% denotes the start of PDF data in this file.
+% Object 2 is a free (unused) object entry.
+xref
+0 9
+0000000000 65535 f
+0000000012 00000 n
+0000000000 00000 f
+0000000112 00000 n
+0000000184 00000 n
+0000000347 00000 n
+0000001152 00000 n
+0000001376 00000 n
+0000001812 00000 n
+trailer
+<<
+  /Size 9
+  /Root 1 0 R
+>>
+startxref
+2247
+%%EOF

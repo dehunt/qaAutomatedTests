@@ -1,0 +1,10 @@
+{
+    "userdata": {
+        "discard-comments-forms-multimedia": "on",
+        "discard-document-information-and-metadata": "on",
+        "discard-file-attachments": "on",
+        "discard-external-crossreferences": "on",
+        "discard-private-data": "on",
+        "discard-hidden-layer-content": "on"
+    }
+}

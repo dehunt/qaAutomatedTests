@@ -1,0 +1,10 @@
+{
+    "objects": {
+        "discard-javascript-actions": "on",
+        "discard-alternate-images": "off",
+        "discard-thumbnails": "off",
+        "discard-document-tags": "on",
+        "discard-bookmarks": "on"
+    }
+    
+}
